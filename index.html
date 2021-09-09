@@ -175,7 +175,8 @@
             <p>I’m just like Shoib, but a far better conversationalist 😉 
             </p>
         </div>
-        <form name="contact" class="contactForm" action="POST" data-netlify="true">
+        <form name="contact" class="contactForm" action="POST" data-netlify="true" method="post">
+            <input type="hidden" name="form-name" value="form 1">
             <div class="row">
                 <div class="col50">
                     <input type="text" name="firstname" placeholder="First Name">
